@@ -1,10 +1,10 @@
-{{ with .Site.Data.screenshots }}
+{{ with .Site.Data.testimonials }}
   {{ if .enable }}
-    <section class="screenshots">
+    <section class="testimonials" id="testimonials">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <div class="screenshots-title">
+          <div class="col-lg-12 mx-auto">
+            <div class="testimonials-title">
               <h2>
                 {{ .title }}
               </h2>
@@ -15,14 +15,14 @@
           </div>
         </div>
       </div>
-      <div class="screenshots-wrapper">
-        <div class="screenshots-slider-frame">
-          <img src="images/screenshots/slider-frame.svg" alt="slider-frame" />
+      <div class="testimonials-wrapper">
+        <div class="testimonials-slider-frame">
+          <img src="images/testimonials/slider-frame.svg" alt="slider-frame" />
         </div>
-        <div class="screenshots-slider">
+        <div class="testimonials-slider">
           {{ $Section := .images }}
           {{ range $Section }}
-            <div class="screenshots-slider-item">
+            <div class="testimonials-slider-item">
               <img src={{ .url }} alt="" />
             </div>
           {{ end }}

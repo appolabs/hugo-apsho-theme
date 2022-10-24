@@ -1,10 +1,43 @@
-.feature {
+.features {
   position: relative;
   overflow: hidden;
+  padding: 80px 0 0;
 
   @include desktop {
     text-align: center;
-    padding-bottom: 80px;
+  }
+
+  @include tablet {
+    padding: 60px 0 0;
+  }
+
+  @include mobile {
+    padding: 30px 0 0;
+  }
+
+  &-title {
+    @include mobile-xs {
+      margin-top: 50px;
+    }
+
+    h1 {
+      text-align: center;
+
+      @include tablet {
+        font-size: 40px;
+        line-height: 52px;
+      }
+    }
+
+    p {
+      text-align: center;
+      font-size: 17px;
+      line-height: 30px;
+
+      @include mobile {
+        font-size: 14px;
+      }
+    }
   }
 
   &-image {

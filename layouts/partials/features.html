@@ -1,0 +1,179 @@
+{{ with .Site.Data.features }}
+  {{ if .enable }}
+    <section class="features" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="features-title">
+              <h1>
+                {{ .title }}
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="features-image">
+              <img
+                src="images/features/feature-shape-01.svg"
+                class="features-image-shape1"
+                style="left: -25%; top: 10%;"
+                alt="features-image-shape"
+              />
+              <img
+                src={{ .section1image }}
+                alt="features-image"
+              />
+              <img
+                src="images/features/feature-shape-02.svg"
+                style="right: -13%; top: 45%;"
+                class="features-image-shape2"
+                alt="features-image-shape"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="features-content ml-25">
+              <h2>
+                {{ .section1title }}
+              </h2>
+              <p>
+                {{ .section1description1 }}
+              </p>
+              <p>
+                {{ .section1description2 }}
+              </p>
+              <p>
+                {{ .section1description3 }}
+              </p>
+              <!-- <a href="#" data-text={{ .buttonText }} class="btn btn-primary">
+                <span>{{ .buttonText }}</span>
+              </a> -->
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="features-content mr-25">
+              <h2>
+                {{ .section2title }}
+              </h2>
+              <p>
+                {{ .section2description1 }}
+              </p>
+              <p>
+                {{ .section2description2 }}
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="features-image">
+              <img
+                src="images/features/feature-shape-03.svg"
+                class="features-image-shape3"
+                style="right: -25%; top: 10%;"
+                alt="features-image-shape"
+              />
+              <img
+                src={{ .section2image }}
+                alt="features-image"
+              />
+              <img
+                src="images/features/feature-shape-04.svg"
+                style="left: -20%; top: 42%;"
+                class="features-image-shape4"
+                alt="features-image-shape"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="features-image">
+              <img
+                      src="images/features/feature-shape-01.svg"
+                      class="features-image-shape1"
+                      style="left: -25%; top: 10%;"
+                      alt="features-image-shape"
+              />
+              <img
+                      src={{ .section3image }}
+                      alt="features-image"
+              />
+              <img
+                      src="images/features/feature-shape-02.svg"
+                      style="right: -13%; top: 45%;"
+                      class="features-image-shape2"
+                      alt="features-image-shape"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="features-content ml-25">
+              <h2>
+                {{ .section3title }}
+              </h2>
+              <p>
+                {{ .section3description1Line1 }}
+                <br>
+                {{ .section3description1Line2 }}
+              </p>
+              <p>
+                {{ .section3description2 }}
+              </p>
+              <!-- <a href="#" data-text={{ .buttonText }} class="btn btn-primary">
+                <span>{{ .buttonText }}</span>
+              </a> -->
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="features-content mr-25">
+              <h2>
+                {{ .section4title }}
+              </h2>
+              <p>
+                {{ .section4description1 }}
+              </p>
+              <p>
+                {{ .section4description2 }}
+              </p>
+              <div class="features-content-list">
+                <ul>
+                  {{ $Section := .checkItem }}
+                  {{ range $Section }}
+                  <li>
+                    <i class="ti-check"></i>
+                    <p> {{ .text }} </p>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="features-image">
+              <img
+                      src="images/features/feature-shape-03.svg"
+                      class="features-image-shape3"
+                      style="right: -25%; top: 10%;"
+                      alt="features-image-shape"
+              />
+              <img
+                      src={{ .section4image }}
+                      alt="features-image"
+              />
+              <img
+                      src="images/features/feature-shape-04.svg"
+                      style="left: -20%; top: 42%;"
+                      class="features-image-shape4"
+                      alt="features-image-shape"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

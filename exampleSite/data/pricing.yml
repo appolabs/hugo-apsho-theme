@@ -2,7 +2,7 @@
 ---
 enable: true
 title: You can benefit more than you think
-services:
+plans:
   - icon: ti-settings
     title: No Setup
     description: They generate alignment and engagement

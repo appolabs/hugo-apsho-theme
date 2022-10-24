@@ -1,9 +1,9 @@
 ---
 enable: true
-title: Turn your business to next level
-caption: Networking
-description: Enjoy team diversity and increase their networks among others people in various fields by providing an exceptional facilities and coworking.
-buttonName: Available on
-button1text: Apple Store
-button2text: Google Play
+title: Lorem ipsum dolor sit amet
+caption: Lorem ipsum dolor sit amet
+descriptionLine1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+descriptionLine2: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+buttonLabel: Buy now
+buttonUrl: /signup
 image: images/hero/hero-image.svg

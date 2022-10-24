@@ -1,6 +1,6 @@
-{{ with .Site.Data.services }}
+{{ with .Site.Data.pricing }}
   {{ if .enable }}
-    <section class="service">
+    <section class="pricing" id="pricing">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-12">
@@ -10,11 +10,11 @@
               </h2>
             </div>
           </div>
-          {{ $services := .services }}
-          {{ range $services }}
+          {{ $plans := .plans }}
+          {{ range $plans }}
             <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <div class="service-icon">
+              <div class="pricing-item">
+                <div class="pricing-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="144.201"
@@ -37,7 +37,7 @@
                   </svg>
                   <i class="{{ .icon }}"></i>
                 </div>
-                <div class="service-content">
+                <div class="pricing-content">
                   <h4>{{ .title }}</h4>
                   <p>{{ .description }}</p>
                 </div>

@@ -1,16 +1,29 @@
 .hero {
   position: relative;
-  padding: 150px 0 100px;
+  padding: 150px 0 80px;
   overflow: hidden;
+
   @include desktop {
     text-align: center;
   }
+
   @include tablet {
-    padding: 120px 0 80px;
+    padding: 120px 0 60px;
   }
+
   @include mobile {
-    padding: 100px 0 50px;
+    padding: 100px 0 20px;
   }
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+
   &-shape {
     position: absolute;
     width: 100%;

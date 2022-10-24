@@ -1,28 +1,24 @@
-.screenshots {
+.testimonials {
   background: $bg-color;
   padding: 70px 0 120px;
   border-radius: 50px;
-  margin: 0 80px;
+  margin: 80px;
   @include desktop-xl {
-    margin: 0 50px;
+    margin: 50px;
   }
   @include desktop-lg {
-    margin: 0 30px;
+    margin: 30px;
   }
   @include desktop {
     border-radius: 25px;
   }
   @include mobile {
-    margin: 0 15px;
+    margin: 30px;
     padding: 50px 0 80px;
     overflow: hidden;
   }
   &-title {
     margin-bottom: 55px;
-
-    @include mobile-xs {
-      margin-top: 50px;
-    }
 
     h2 {
       text-align: center;

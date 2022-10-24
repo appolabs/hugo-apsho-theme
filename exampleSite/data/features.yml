@@ -1,0 +1,25 @@
+---
+enable: true
+title: Lorem ipsum dolor sit amet
+section1image: images/features/feature-illustration-one.svg
+section1title: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+section1description1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+section1description2: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+section1description3: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+section1buttonText: Buy now
+section2image: images/features/feature-illustration-two.svg
+section2title: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+section2description1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+section3image: images/features/feature-illustration-one.svg
+section3title: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+section3description1Line1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+section3description1Line2: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+section3description2: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+section3buttonText: Buy now
+section4image: images/features/feature-illustration-two.svg
+section4title: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+checkItem:
+  - text: Shopify
+  - text: Wordpress
+  - text: Woocommerce
+  - text: Prestashop
