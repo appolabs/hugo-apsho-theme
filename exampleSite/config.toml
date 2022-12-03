@@ -38,8 +38,11 @@ theme = "apsho"
 
 [params]
 
+head = """
+<!-- custom scripts -->
+"""
+
 # Header
-googleAnalytics = "UA-175025671-2"
 logo = "images/logo.png"
 signUpUrl = "/signup"
 signUpLabel = "SIGN UP"
