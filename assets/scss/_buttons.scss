@@ -15,9 +15,8 @@
 .btn-primary {
   position: relative;
   border: 2px solid $primary-color;
-  color: $primary-color;
   text-transform: uppercase;
-  background: $white;
+  background: $primary-color;
 
   span {
     display: block;
@@ -52,23 +51,8 @@
   }
 
   &:hover {
-    color: $primary-color;
     border-color: $primary-color;
-    background: $white;
-
-    span {
-      transform: translateY(10px);
-      opacity: 0;
-    }
-
-    &::before {
-      transform: scaleY(1);
-    }
-
-    &::after {
-      transform: translate(-50%, -50%);
-      opacity: 1;
-    }
+    background: $primary-hover-color;
   }
 }
 
