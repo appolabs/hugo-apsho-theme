@@ -12,15 +12,6 @@
   .col-md-6 {
     &:nth-child(3n - 2) {
       .pricing-item {
-        .pricing-icon {
-          svg {
-            path {
-              &:first-child {
-                fill: #ffecee;
-              }
-            }
-          }
-        }
         &::after {
           background: rgb(255, 187, 193);
         }
@@ -28,15 +19,6 @@
     }
     &:nth-child(3n - 1) {
       .pricing-item {
-        .pricing-icon {
-          svg {
-            path {
-              &:first-child {
-                fill: #e8f1ff;
-              }
-            }
-          }
-        }
         &::after {
           background: rgb(143, 186, 255);
         }
@@ -44,15 +26,6 @@
     }
     &:nth-child(3n) {
       .pricing-item {
-        .pricing-icon {
-          svg {
-            path {
-              &:first-child {
-                fill: #fff7d8;
-              }
-            }
-          }
-        }
         &::after {
           background: rgb(254, 231, 140);
         }
